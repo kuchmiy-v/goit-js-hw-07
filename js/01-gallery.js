@@ -5,8 +5,6 @@ console.log(galleryItems);
 
 const galleryList = document.querySelector(".gallery");
 
-// galleryList.insertAdjacentHTML("beforeend", galleryMarkup);
-
 const galleryMarkup = galleryItems
   .map(
     (item) => `
